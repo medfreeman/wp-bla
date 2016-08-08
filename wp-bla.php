@@ -85,7 +85,7 @@ class Bla {
 			'public' => true,
 			'show_ui' => true,
 			'menu_position' => 25,
-			'menu_icon' => plugins_url( 'bla/images/icons/news.png' ),
+			'menu_icon' => plugins_url( 'images/icons/news.png', __FILE__ ),
 			'query_var' => true,
 			'capability_type' => 'post',
 			'hierarchical' => false,
