@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ruleset name="PHP_CodeSniffer">
+	<description>The coding standard for wp-bla.</description>
+
+	<file>./wp-bla.php</file>
+
+	<arg name="warning-severity" value="0"/>
+
+	<rule ref="WordPress"/>
+	<rule ref="Wordpress-Extra">
+		<!-- This project doesnt use wordpress.com functions -->
+		<exclude name="WordPress.VIP.RestrictedFunctions.get_term_link" />
+	</rule>
+</ruleset>
