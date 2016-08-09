@@ -2,6 +2,7 @@
 /**
 Plugin Name: Bla
 Plugin URI: https://github.com/medfreeman/wp-bla
+GitHub Plugin URI: https://github.com/medfreeman/wp-bla
 Description: Provides an interface for maintaining voxusini monthly blas
 Version: 1.1.1
 Author: Mehdi Lahlou
