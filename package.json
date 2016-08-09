@@ -4,7 +4,7 @@
   "description": "wordpress plugin for management of voxusini monthly blas",
   "scripts": {
     "postinstall": "npm run composer -- create-project wp-coding-standards/wpcs:dev-master --no-dev --keep-vcs",
-    "test": "npm run phpcs",
+    "test": "npm run phpcs -- --extensions=php",
     "composer": "php ./node_modules/getcomposer/composer.phar",
     "phpcs": "./wpcs/vendor/bin/phpcs"
   },
