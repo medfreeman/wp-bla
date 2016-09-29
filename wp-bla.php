@@ -89,9 +89,9 @@ class Bla {
 	 */
 	public function register_post_type_bla() {
 		register_post_type( self::POST_TYPE, array(
-			'label' => __( 'Blas', self::LANG_PREFIX ),
-			'singular_label' => __( 'Bla', self::LANG_PREFIX ),
-			'labels' => array( 'add_new_item' => __( 'Ajouter un Bla', self::LANG_PREFIX ) ),
+			'label' => __( 'Blas', 'bla' ),
+			'singular_label' => __( 'Bla', 'bla' ),
+			'labels' => array( 'add_new_item' => __( 'Ajouter un Bla', 'bla' ) ),
 			'public' => true,
 			'show_ui' => true,
 			'menu_position' => 25,
